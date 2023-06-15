@@ -137,6 +137,10 @@ a {
     padding: 5px;
 }
 
+.about-description-item p {
+    text-align: justify;
+}
+
 .about-tasks {
     max-width: 1200px;
     margin: 10px auto 50px auto;
