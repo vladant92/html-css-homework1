@@ -239,5 +239,70 @@ address a:hover {
     color: #2196F3;
 }
 
+/* adding portfolio page styles */
 
+.portfolio-banner {
+    background-color: #FFF;
+}
+
+.portfolio-banner ul {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px auto 40px auto;
+}
+
+.portfolio-banner li {
+    width: 370px;
+}
+
+.portfolio-menu {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.portfolio-btn {
+    margin: 15px 0;
+    background-color: #F5F4FA;
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.portfolio-btn:hover {
+    background-color: #2196F3;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.portfolio-column-item {
+    text-align: left;
+    font-size: 16px;
+    background-color: #FFF;
+    border: 1px solid #ECECEC;
+}
+
+.portfolio-column-item h4 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 600;
+}
+
+.portfolio-column-item p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.portfolio-menu {
+    margin: 10px 0;
+    border-top: 1px solid #ECECEC;
+}
 
